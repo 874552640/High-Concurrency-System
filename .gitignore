@@ -1,0 +1,41 @@
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+
+# Dependencies
+node_modules/
+target/
+dist/
+
+# Compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# Package files
+*.zip
+*.tar.gz
+*.rar
+
+# Local configuration
+application-local.properties
+application-local.yml
+
+# Other
+*.swp
+*.swo
+*~ 

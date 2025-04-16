@@ -1,41 +1,33 @@
-# IDE files
-.idea/
-.vscode/
-*.iml
-
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-# Logs
-*.log
-
-# Dependencies
-node_modules/
+HELP.md
 target/
-dist/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-# Compiled files
-*.class
-*.jar
-*.war
-*.ear
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
-# Package files
-*.zip
-*.tar.gz
-*.rar
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
 
-# Local configuration
-application-local.properties
-application-local.yml
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
 
-# Other
-*.swp
-*.swo
-*~ 
+### VS Code ###
+.vscode/
